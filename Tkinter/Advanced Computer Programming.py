@@ -5,9 +5,10 @@ import tkinter as tk
 root = tk.Tk()
 root.title('button html')
 root.geometry('600x600')
-root.title('Freshman Thematic Report-College of Information and Electrical Engineering-Asia University(Taiwan)')
+root.title('Freshman Thematic Report-Asia University(Taiwan)')
 
 
+college = tk.Label(root,text='College of Information and Electrical Engineering',font=44).pack()
 subject_Yr1 = tk.Label(root,text='Advanced Computer Programming 1C', font=34).pack()
 Major = tk.Label(root, text='Computer Science and Information Engineering 2B').pack()
 persion = tk.Label(root, text='Creators').pack()
