@@ -5,7 +5,7 @@ import tkinter as tk
 root = tk.Tk()
 root.title('button html')
 root.geometry('600x600')
-root.title('Freshman Thematic Report')
+root.title('Freshman Thematic Report-College of Information and Electrical Engineering-Asia University(Taiwan)')
 
 
 subject_Yr1 = tk.Label(root,text='Advanced Computer Programming 1C', font=34).pack()
